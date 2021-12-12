@@ -30,9 +30,37 @@
     </header>
 
     <!-- hero/jumbotron -->
-    <section>
-
+    <section class="hero">
+        <!-- Form  -->
+        <div id="form">
+            <h3>Get Started Today!</h3>
+            <p>Fill out this form and one of our trainers will schedule a consult</p>
+            <form action="#" method="POST">
+                <label for="full_name">Enter full name:</label>
+                <input type="text" name="full_name" id="full_name" placeholder="Your Name" class="form_input" />
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" placeholder="Email Address" class="form_input"/>
+                <label for="phone_number">Enter a telephone number:</label>
+                <input type="tel" name="phone_number" id="phone_number" placeholder="Phone Number" class="form_input" />  
+                <p>
+                    Have you worked out with a trainer before?
+                    <input type="radio" id="yes" name="experience" />
+                    <label for="yes" name=>Yes</label>
+                    <input type="radio" id="no" name="experience" />
+                    <label for="no">No</label>
+                </p>
+                <p>
+                    <label for="age_verification">
+                        I acknowledge that I am at least 18 years of age.
+                    </label>
+                    <input type="checkbox" name="age_verification" id="age_verification" />
+                </p>
+                <button type="submit">Get Running</button>
+            </form>
+        </div>
+        
     </section>
+<!-- End of JumboTron -->
 
     <!-- "what we do" section -->
     <section>
@@ -57,6 +85,11 @@
     <!-- Footer -->
     <footer>
         <h2>❤️ Made with love by Run Buddy</h2>
+        <div>
+            <a href="#">Read Our Privacy Policy</a>
+            <p>&copy; 2019 Run Buddy, Inc.</p>
+        </div>
+        
     </footer>
 </body>
 </html>
