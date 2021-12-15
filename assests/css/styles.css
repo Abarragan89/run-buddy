@@ -194,6 +194,39 @@ button {
 .text-right {
     text-align: right;
 }
+/* Styles for Contact section */
+.contact {
+    background-color: #024e76;
+    text-align: center;
+    overflow: auto;
+}
+.contact h2 {
+    color: #fce138;
+    border-bottom: #39a6b2 solid 3px;
+}
+.contact-info iframe {
+    float: left;
+    width: 400px;
+    height: 400px;
+    margin-left: 15%;
+}
+
+.contact h3 {
+    color: #fce138;
+    font-size: 40px
+}
+.address {
+    width: 410px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 20px 0;
+    color: white;
+    font-size: 20px;
+    line-height: 1.5;
+}
+.address a {
+    color: #fce138;
+}
 
 /* Styles for the footer */
 footer {
