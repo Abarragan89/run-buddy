@@ -1,4 +1,14 @@
-# run-buddy
+# Run Buddy
 
-## This is a fictional website for a exercise service. It displays information about their company and has a functional form to sign up
-## This does not use any frameworks or libraries. 
+## Purpose
+A website that offers fitness training services.
+
+## Built With
+* HTML
+* CSS
+
+## Website
+https://lernantino.github.io/run-buddy/
+
+## Contribution
+Made with ❤️ by [your name]
