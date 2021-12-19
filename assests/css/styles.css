@@ -221,39 +221,62 @@ button {
 .contact {
     background-color: #024e76;
     text-align: center;
-    overflow: auto;
 }
 .contact h2 {
     color: #fce138;
     border-bottom: #39a6b2 solid 3px;
 }
-.contact-info iframe {
-    float: left;
-    width: 400px;
-    height: 400px;
-    margin-left: 15%;
+.contact-info  {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-basis: 30%;
+    
 }
-
+#map {
+    order: 3;
+}
+#contact-us {
+    order: 2;
+}
+#contact-us form {
+    display: flex;
+    flex-direction: column;
+}
+#contact-us input, textarea {
+    line-height: 2;
+    margin-top: 1.25em;
+    border-radius: 5px;
+    background-color: rgb(206, 203, 203);
+}
+#contact-us button {
+    background-color: #fce138;
+    border: 1px solid #39a6b2;
+    color: #024e76;
+    border-radius: 5px;
+}
+#address {
+    text-align: right;
+    color: white;
+    font-size: 20px;
+    line-height: 1.5;
+    order: 1;
+}
+.contact-info iframe {
+    width: 400px;
+}
 .contact h3 {
     color: #fce138;
     font-size: 40px
 }
-.address {
-    width: 410px;
-    display: inline-block;
-    vertical-align: top;
-    margin: 20px 0;
-    color: white;
-    font-size: 20px;
-    line-height: 1.5;
-}
+
 .address a {
     color: #fce138;
 }
 
 /* Styles for the footer */
 footer {
-    background-color: #fce138;
+    background-color: #024e76;
     padding: 40px 35px;
 }
 
@@ -264,12 +287,12 @@ footer div {
 }
 footer h2 {
     display: inline;
-    color: #024e76;
+    color: #fce138;
     font-size: 30px;
     margin: 0;
 }
 
 footer p, a{
-    font-size: .85em;
     text-align: center;
+    color: #fce138;
 }
