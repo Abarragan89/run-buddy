@@ -51,16 +51,22 @@
                     <input type="tel" name="phone_number" id="phone_number" placeholder="Phone Number" class="form_input" />  
                     <p>
                         Have you worked out with a trainer before?
-                        <input type="radio" id="yes" name="experience" />
-                        <label for="yes" name=>Yes</label>
-                        <input type="radio" id="no" name="experience" />
-                        <label for="no">No</label>
+                        <span class="radio-wrapper">
+                            <input type="radio" id="yes" name="experience" />
+                            <label for="yes" name=>Yes</label>
+                        </span>
+                        <span class="radio-wrapper">
+                            <input type="radio" id="no" name="experience" />
+                            <label for="no">No</label>
+                        </span>
                     </p>
                     <p>
-                        <label for="age_verification">
+                        <span class="checkbox-wrapper">
+                            <input type="checkbox" name="age_verification" id="age_verification" />
+                            <label for="age_verification">
                             I acknowledge that I am at least 18 years of age.
-                        </label>
-                        <input type="checkbox" name="age_verification" id="age_verification" />
+                            </label>
+                        </span>
                     </p>
                     <button type="submit">Get Running</button>
                 </form>
